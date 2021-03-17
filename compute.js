@@ -15,7 +15,8 @@ const server =
       const search_params = url.searchParams
 
       
-      console.log("Queries: " + search_params)
+      console.log("Queries: " + search_params.x)
+    //   let params=search_params.x;
 
       if (req.method === 'GET' ) {
        
